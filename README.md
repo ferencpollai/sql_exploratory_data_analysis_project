@@ -18,6 +18,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 I've made this project based on the data warehouse I've previously built. I did some Exploratory Data Analysis to understand the data. For example I used basic queries, data profiling, simple aggregations and subqueries.
 
 Then I did some Advanced Data Analysis to answear real business questions. I used more complex queries, window functions, CTEs, subqueries, and at the end I created 2 views that can be used to create amazing visualizations in PowerBI or in Tableau.
+
 ---
 
 ## Licence
