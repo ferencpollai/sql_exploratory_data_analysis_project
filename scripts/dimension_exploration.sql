@@ -1,19 +1,26 @@
 /*
 ===============================================================================
-Dimension Exploration
+Dimensions Exploration
 ===============================================================================
-Script Purpose:
-    This query helps identify customer coverage across countries and outlines 
-    the product taxonomy. It’s useful for understanding both market reach and
-    how products are organized within major divisions.
+Purpose:
+    - To explore the structure of dimension tables.
+	
+SQL Functions Used:
+    - DISTINCT
+    - ORDER BY
 ===============================================================================
 */
 
--- Explore All Countries our customers come from.
+-- Retrieve a list of unique countries from which customers originate
+SELECT DISTINCT 
+    country 
+FROM gold.dim_customers
+ORDER BY country;
 
-SELECT DISTINCT country FROM gold.dim_customers
-
--- Explore All Categories "The Major Divisions"
-
-SELECT DISTINCT category, subcategory, product_name FROM gold.dim_products
-ORDER BY 1,2,3
+-- Retrieve a list of unique categories, subcategories, and products
+SELECT DISTINCT 
+    category, 
+    subcategory, 
+    product_name 
+FROM gold.dim_products
+ORDER BY category, subcategory, product_name;
