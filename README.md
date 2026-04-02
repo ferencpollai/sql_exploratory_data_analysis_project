@@ -16,6 +16,8 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision making.
 I've made this project based on the data warehouse I've previously built. I did some Exploratory Data Analysis to understand the data. For example I used basic queries, data profiling, simple aggregations and subqueries.
+
+Then I did some Advanced Data Analysis to answear real business questions. I used more complex queries, window functions, CTEs, subqueries, and at the end I created 2 views that can be used to create amazing visualizations in PowerBI or in Tableau.
 ---
 
 ## Licence
@@ -24,4 +26,4 @@ This project is licensed under the [MIT Licence].(Licence). You are free to use,
 
 ## About Me
 
-Hi there! My name is **Ferenc Póllai**. I'm an ex finance professional who found his new passion in Data Analytics.
+Hi there! My name is **Ferenc Póllai**. I'm an ex finance professional who found his new passion in Data Analytics. I'm currently trying to make a solid portfolio and this project is one of many :) 
